@@ -1,0 +1,345 @@
+Generating ipopt Code
+iiList = [25.0,15.0]
+ii = 25.0
+latencyHeight = 30
+Num Variables = 48
+Num Constraints = 245
+
+Running `make`
+
+Running ipopt
+
+ipopt finished, generating modulo codegraph
+New node: 62 For: size
+New node: 64 For: mrIn
+New node: 65 For: mrOut
+New node: 200 For: cnt
+New node: 201 For: size
+New node: 207 For: mrIn
+New node: 208 For: mrOut
+New node: 209 For: fifo0
+New node: 214 For: fifo1
+[("mrIn",MemoryRes 0),("mrOut",MemoryRes 0),("cnt",GPR),("size",GPR),("fifo0",GPR),("fifo1",GPR)]
+(Graph h MR,Graph h MR,Graph h GPR,Graph h GPR,Graph h GPR,Graph h GPR)
+New node: 341 For: mrIn
+New node: 342 For: mrOut
+New node: 343 For: cnt
+New node: 348 For: size
+New node: 349 For: fifo0
+New node: 350 For: fifo1
+
+allInitMRTies: []
+
+
+
+spillNodes: []
+
+SpillMap after regAllocate: fromList []
+
+newConstLoads [([512],71),([4575657222473777152,4575657222473777152],102),([64],203)]
+fromList []
+simSchedGraph at node 72
+At CGNode
+
+simSchedGraph at node 67
+xorG    r26 r5 r5
+args:   r5 (decimal: 64,hex: 0x40)
+        r5 (decimal: 64,hex: 0x40)
+
+        result: r26 (decimal: 0,hex: 0x0)
+
+simSchedGraph at node 69
+xorG    r27 r26 r26
+args:   r26 (decimal: 0,hex: 0x0)
+        r26 (decimal: 0,hex: 0x0)
+
+        result: r27 (decimal: 0,hex: 0x0)
+
+simSchedGraph at node 63
+branchImmNotHigh:
+ False r5 (decimal: 64,hex: 0x40)
+
+simSchedGraph at node 100
+incMR:
+Mem region: Interp MR: mrOut_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 79
+incMR:
+Mem region: Interp MR: mrIn_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 82
+moduloVLoad:
+Mem region: Interp MR: mrIn
+args:
+imms: 0
+result: Load VR:
+    doubles: [5.263544247e-315,2.0000004786998034]
+    hex: (0x3f800000,0x4000000040400000))
+
+simSchedGraph at node 84
+incMR:
+Mem region: Interp MR: mrIn_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 87
+moduloVLoad:
+Mem region: Interp MR: mrIn
+args:
+imms: 16
+result: Load VR:
+    doubles: [512.0001232624054,8192.00197982788]
+    hex: (0x4080000040a00000,0x40c0000040e00000))
+
+simSchedGraph at node 89
+incMR:
+Mem region: Interp MR: mrIn_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 134
+unfloats4       vr30  4575657222473777152 4575657222473777152
+args:
+        result: v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+simSchedGraph at node 110
+xvaddsp vr29 v31 v30
+args:   v31
+(doubles: [512.0001232624054,8192.00197982788]
+(floats: [4.0,5.0,6.0,7.0]
+,hex: (0x4080000040a00000,0x40c0000040e00000))
+        v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+        result: v29
+(doubles: [2048.000494003296,32768.00793457031]
+(floats: [5.0,6.0,7.0,8.0]
+,hex: (0x40a0000040c00000,0x40e0000041000000))
+
+simSchedGraph at node 102
+unfloats4       vr30  4575657222473777152 4575657222473777152
+args:
+        result: v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+simSchedGraph at node 104
+xvaddsp vr30 v28 v30
+args:   v28
+(doubles: [5.263544247e-315,2.0000004786998034]
+(floats: [0.0,1.0,2.0,3.0]
+,hex: (0x3f800000,0x4000000040400000))
+        v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+        result: v30
+(doubles: [7.81250186264515e-3,32.000007688999176]
+(floats: [1.0,2.0,3.0,4.0]
+,hex: (0x3f80000040000000,0x4040000040800000))
+
+simSchedGraph at node 106
+moduloVStore:
+Mem region: Interp MR: mrOut
+args:
+        v30
+(doubles: [7.81250186264515e-3,32.000007688999176]
+(floats: [1.0,2.0,3.0,4.0]
+,hex: (0x3f80000040000000,0x4040000040800000))
+imms: 0
+result: Store
+
+simSchedGraph at node 108
+incMR:
+Mem region: Interp MR: mrOut_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 358
+unintegerG      r31  512
+args:
+        result: r31 (decimal: 512,hex: 0x200)
+
+simSchedGraph at node 216
+xorG    r28 r28 r31
+args:   r28 (decimal: 0,hex: 0x0)
+        r31 (decimal: 512,hex: 0x200)
+
+        result: r28 (decimal: 512,hex: 0x200)
+
+simSchedGraph at node 211
+unintegerG      r31  512
+args:
+        result: r31 (decimal: 512,hex: 0x200)
+
+simSchedGraph at node 213
+xorG    r27 r27 r31
+args:   r27 (decimal: 0,hex: 0x0)
+        r31 (decimal: 512,hex: 0x200)
+
+        result: r27 (decimal: 512,hex: 0x200)
+
+simSchedGraph at node 203
+unintegerG      r31  64
+args:
+        result: r31 (decimal: 64,hex: 0x40)
+
+simSchedGraph at node 205
+subG    r31 r5 r31
+args:   r5 (decimal: 64,hex: 0x40)
+        r31 (decimal: 64,hex: 0x40)
+
+        result: r31 (decimal: 0,hex: 0x0)
+
+simSchedGraph at node 206
+branchNotLow:
+ True r26 (decimal: 0,hex: 0x0)r31 (decimal: 0,hex: 0x0)
+
+simSchedGraph at node 176
+moduloVStore:
+Mem region: Interp MR: mrOut
+args:
+        v29
+(doubles: [2048.000494003296,32768.00793457031]
+(floats: [5.0,6.0,7.0,8.0]
+,hex: (0x40a0000040c00000,0x40e0000041000000))
+imms: 16
+result: Store
+
+simSchedGraph at node 156
+moduloVLoad:
+Mem region: Interp MR: mrIn
+args:
+imms: 32
+result: Load VR:
+    doubles: [131072.03176879883,524288.1273193359]
+    hex: (0x4100000041100000,0x4120000041300000))
+
+simSchedGraph at node 196
+unfloats4       vr30  4575657222473777152 4575657222473777152
+args:
+        result: v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+simSchedGraph at node 180
+xvaddsp vr30 v31 v30
+args:   v31
+(doubles: [131072.03176879883,524288.1273193359]
+(floats: [8.0,9.0,10.0,11.0]
+,hex: (0x4100000041100000,0x4120000041300000))
+        v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+        result: v30
+(doubles: [262144.0635986328,1048576.2548828125]
+(floats: [9.0,10.0,11.0,12.0]
+,hex: (0x4110000041200000,0x4130000041400000))
+
+simSchedGraph at node 178
+incMR:
+Mem region: Interp MR: mrOut_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 182
+moduloVStore:
+Mem region: Interp MR: mrOut
+args:
+        v30
+(doubles: [262144.0635986328,1048576.2548828125]
+(floats: [9.0,10.0,11.0,12.0]
+,hex: (0x4110000041200000,0x4130000041400000))
+imms: 32
+result: Store
+
+simSchedGraph at node 184
+incMR:
+Mem region: Interp MR: mrOut_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 158
+incMR:
+Mem region: Interp MR: mrIn_0
+args:
+        r26 (decimal: 0,hex: 0x0)
+imms:
+result: Store
+
+simSchedGraph at node 161
+moduloVLoad:
+Mem region: Interp MR: mrIn
+args:
+imms: 48
+result: Load VR:
+    doubles: [2097152.5102539063,8388610.044921875]
+    hex: (0x4140000041500000,0x4160000041700000))
+
+simSchedGraph at node 194
+unfloats4       vr30  4575657222473777152 4575657222473777152
+args:
+        result: v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+simSchedGraph at node 186
+xvaddsp vr30 v31 v30
+args:   v31
+(doubles: [2097152.5102539063,8388610.044921875]
+(floats: [12.0,13.0,14.0,15.0]
+,hex: (0x4140000041500000,0x4160000041700000))
+        v30
+(doubles: [7.812501848093234e-3,7.812501848093234e-3]
+(floats: [1.0,1.0,1.0,1.0]
+,hex: (0x3f8000003f800000,0x3f8000003f800000))
+
+        result: v30
+(doubles: [4194305.021484375,1.677722009375e7]
+(floats: [13.0,14.0,15.0,16.0]
+,hex: (0x4150000041600000,0x4170000041800000))
+
+simSchedGraph at node 188
+moduloVStore:
+Mem region: Interp MR: mrOut
+args:
+        v30
+(doubles: [4194305.021484375,1.677722009375e7]
+(floats: [13.0,14.0,15.0,16.0]
+,hex: (0x4150000041600000,0x4170000041800000))
+imms: 48
+result: Store
+
+simSchedGraph at node 199
+At CGNode
+
+HardwareST {hardwareST_GPRs = fromList [("26",InterpGPR {runInterpGPR = 0}),("27",InterpGPR {runInterpGPR = 512}),("28",InterpGPR {runInterpGPR = 512}),("29",InterpGPR {runInterpGPR = 0}),("3",InterpGPR {runInterpGPR = 0}),("30",InterpGPR {runInterpGPR = 0}),("31",InterpGPR {runInterpGPR = 0}),("4",InterpGPR {runInterpGPR = 0}),("5",InterpGPR {runInterpGPR = 64})], hardwareST_VRs = fromList [("28",InterpVR {runInterpVR = (1065353216,4611686019505324032)}),("29",InterpVR {runInterpVR = (4656722015787417600,4674736414301093888)}),("30",InterpVR {runInterpVR = (4706261611698978816,4715268810955816960)}),("31",InterpVR {runInterpVR = (4701758012070559744,4710765211327397888)})], branchCondition = True, hardwareST_MRTables = [("4",Interp MR: mrIn),("3",Interp MR: mrOut),("31",Interp MR: mrOut_0),("30",Interp MR: mrIn_0),("29",Interp MR: mrIn_0)], hardwareST_SpillTable = fromList []}

@@ -1,0 +1,1446 @@
+
+stepi
+p "$r28 ="
+p $r28
+
+stepi
+p "$r29 ="
+p $r29
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr22 ="
+p $vr22
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr19 ="
+p $vr19
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr13 ="
+p $vr13
+
+stepi
+p "$vr17 ="
+p $vr17
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr11 ="
+p $vr11
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr24 ="
+p $vr24
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr16 ="
+p $vr16
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr21 ="
+p $vr21
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr18 ="
+p $vr18
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr26 ="
+p $vr26
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr28 ="
+p $vr28
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr18 ="
+p $vr18
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr26 ="
+p $vr26
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr21 ="
+p $vr21
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr8 ="
+p $vr8
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$vr9 ="
+p $vr9
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr10 ="
+p $vr10
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr28 ="
+p $vr28
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr18 ="
+p $vr18
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr26 ="
+p $vr26
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr10 ="
+p $vr10
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr8 ="
+p $vr8
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr9 ="
+p $vr9
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr6 ="
+p $vr6
+
+stepi
+p "$vr7 ="
+p $vr7
+
+stepi
+p "$vr21 ="
+p $vr21
+
+stepi
+p "$vr9 ="
+p $vr9
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr7 ="
+p $vr7
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr7 ="
+p $vr7
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr27 ="
+p $vr27
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr21 ="
+p $vr21
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr20 ="
+p $vr20
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r30 ="
+p $r30
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r29 ="
+p $r29
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr11 ="
+p $vr11
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr17 ="
+p $vr17
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr19 ="
+p $vr19
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr25 ="
+p $vr25
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr24 ="
+p $vr24
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr23 ="
+p $vr23
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr16 ="
+p $vr16
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr29 ="
+p $vr29
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr12 ="
+p $vr12
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr28 ="
+p $vr28
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr15 ="
+p $vr15
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr28 ="
+p $vr28
+
+stepi
+p "$vr14 ="
+p $vr14
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+

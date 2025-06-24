@@ -1,0 +1,524 @@
+>>>Type 'help' for help.
+warning: no source compiled with -g
+>>>reading symbolic information ...
+>>>[1] stopi in square
+>>>[1] stopped in square at 0x10000854
+>>>0x10000854 (square)    3981ff68           addi   r12,-152(r1)
+>>>stopped in square at 0x10000858
+>>>0x10000858 (square+0x4) 91acffb4            stw   r13,-76(r12)
+>>>print $r12 
+>>>0x2ff22918 
+>>>stopped in square at 0x1000085c
+>>>0x1000085c (square+0x8) 91ccffb8            stw   r14,-72(r12)
+>>>print $r13 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000860
+>>>0x10000860 (square+0xc) 91ecffbc            stw   r15,-68(r12)
+>>>print $r14 
+>>>0x00000001 
+>>>stopped in square at 0x10000864
+>>>0x10000864 (square+0x10) 920cffc0            stw   r16,-64(r12)
+>>>print $r15 
+>>>0x2ff22bf0 
+>>>stopped in square at 0x10000868
+>>>0x10000868 (square+0x14) 922cffc4            stw   r17,-60(r12)
+>>>print $r16 
+>>>0x2ff22bf8 
+>>>stopped in square at 0x1000086c
+>>>0x1000086c (square+0x18) 924cffc8            stw   r18,-56(r12)
+>>>print $r17 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000870
+>>>0x10000870 (square+0x1c) 926cffcc            stw   r19,-52(r12)
+>>>print $r18 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000874
+>>>0x10000874 (square+0x20) 928cffd0            stw   r20,-48(r12)
+>>>print $r19 
+>>>0xf0a236d0 
+>>>stopped in square at 0x10000878
+>>>0x10000878 (square+0x24) 92acffd4            stw   r21,-44(r12)
+>>>print $r20 
+>>>0xdeadbeef 
+>>>stopped in square at 0x1000087c
+>>>0x1000087c (square+0x28) 92ccffd8            stw   r22,-40(r12)
+>>>print $r21 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000880
+>>>0x10000880 (square+0x2c) 92ecffdc            stw   r23,-36(r12)
+>>>print $r22 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000884
+>>>0x10000884 (square+0x30) 930cffe0            stw   r24,-32(r12)
+>>>print $r23 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000888
+>>>0x10000888 (square+0x34) 932cffe4            stw   r25,-28(r12)
+>>>print $r24 
+>>>0xdeadbeef 
+>>>stopped in square at 0x1000088c
+>>>0x1000088c (square+0x38) 934cffe8            stw   r26,-24(r12)
+>>>print $r25 
+>>>0xdeadbeef 
+>>>stopped in square at 0x10000890
+>>>0x10000890 (square+0x3c) 936cffec            stw   r27,-20(r12)
+>>>print $r26 
+>>>0xfcbec88b 
+>>>stopped in square at 0x10000894
+>>>0x10000894 (square+0x40) 938cfff0            stw   r28,-16(r12)
+>>>print $r27 
+>>>0x00000080 
+>>>stopped in square at 0x10000898
+>>>0x10000898 (square+0x44) 93acfff4            stw   r29,-12(r12)
+>>>print $r28 
+>>>0x20000af5 
+>>>stopped in square at 0x1000089c
+>>>0x1000089c (square+0x48) 93ccfff8            stw   r30,-8(r12)
+>>>print $r29 
+>>>0x10000000 
+>>>stopped in square at 0x100008a0
+>>>0x100008a0 (square+0x4c) 93ecfffc            stw   r31,-4(r12)
+>>>print $r30 
+>>>0xfffffffc 
+>>>stopped in square at 0x100008a4
+>>>0x100008a4 (square+0x50) d9c1ff70           stfd   f14,-144(r1)
+>>>print $r31 
+>>>0x2ff229b0 
+>>>stopped in square at 0x100008a8
+>>>0x100008a8 (square+0x54) d9e1ff78           stfd   f15,-136(r1)
+>>>registers $fr14 
+>>> $vsr14 ($fr14):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008ac
+>>>0x100008ac (square+0x58) da01ff80           stfd   f16,-128(r1)
+>>>registers $fr15 
+>>> $vsr15 ($fr15):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008b0
+>>>0x100008b0 (square+0x5c) da21ff88           stfd   f17,-120(r1)
+>>>registers $fr16 
+>>> $vsr16 ($fr16):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008b4
+>>>0x100008b4 (square+0x60) da41ff90           stfd   f18,-112(r1)
+>>>registers $fr17 
+>>> $vsr17 ($fr17):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008b8
+>>>0x100008b8 (square+0x64) da61ff98           stfd   f19,-104(r1)
+>>>registers $fr18 
+>>> $vsr18 ($fr18):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008bc
+>>>0x100008bc (square+0x68) da81ffa0           stfd   f20,-96(r1)
+>>>registers $fr19 
+>>> $vsr19 ($fr19):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008c0
+>>>0x100008c0 (square+0x6c) daa1ffa8           stfd   f21,-88(r1)
+>>>registers $fr20 
+>>> $vsr20 ($fr20):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008c4
+>>>0x100008c4 (square+0x70) dac1ffb0           stfd   f22,-80(r1)
+>>>registers $fr21 
+>>> $vsr21 ($fr21):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008c8
+>>>0x100008c8 (square+0x74) dae1ffb8           stfd   f23,-72(r1)
+>>>registers $fr22 
+>>> $vsr22 ($fr22):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008cc
+>>>0x100008cc (square+0x78) db01ffc0           stfd   f24,-64(r1)
+>>>registers $fr23 
+>>> $vsr23 ($fr23):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008d0
+>>>0x100008d0 (square+0x7c) db21ffc8           stfd   f25,-56(r1)
+>>>registers $fr24 
+>>> $vsr24 ($fr24):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008d4
+>>>0x100008d4 (square+0x80) db41ffd0           stfd   f26,-48(r1)
+>>>registers $fr25 
+>>> $vsr25 ($fr25):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008d8
+>>>0x100008d8 (square+0x84) db61ffd8           stfd   f27,-40(r1)
+>>>registers $fr26 
+>>> $vsr26 ($fr26):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008dc
+>>>0x100008dc (square+0x88) db81ffe0           stfd   f28,-32(r1)
+>>>registers $fr27 
+>>> $vsr27 ($fr27):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008e0
+>>>0x100008e0 (square+0x8c) dba1ffe8           stfd   f29,-24(r1)
+>>>registers $fr28 
+>>> $vsr28 ($fr28):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008e4
+>>>0x100008e4 (square+0x90) dbc1fff0           stfd   f30,-16(r1)
+>>>registers $fr29 
+>>> $vsr29 ($fr29):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008e8
+>>>0x100008e8 (square+0x94) dbe1fff8           stfd   f31,-8(r1)
+>>>registers $fr30 
+>>> $vsr30 ($fr30):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008ec
+>>>0x100008ec (square+0x98) 80a50000            lwz   r5,0x0(r5)
+>>>registers $fr31 
+>>> $vsr31 ($fr31):0x00000000 00000000 00000000 00000000
+>>>stopped in square at 0x100008f0
+>>>0x100008f0 (square+0x9c) 1ca50004          mulli   r5,r5,0x4
+>>>print $r5 
+>>>0x00000010 
+>>>stopped in square at 0x100008f4
+>>>0x100008f4 (square+0xa0) 38c2ff98           addi   r6,-104(r2)
+>>>print $r5 
+>>>0x00000040 
+>>>stopped in square at 0x100008f8
+>>>0x100008f8 (square+0xa4) 80e60010            lwz   r7,0x10(r6)
+>>>print $r6 
+>>>0x20000c28 
+>>>stopped in square at 0x100008fc
+>>>0x100008fc (square+0xa8) f4060029                 lxv    vsr32,0x20(r6)
+>>>print $r7 
+>>>(nil) 
+>>>stopped in square at 0x10000900
+>>>0x10000900 (square+0xac) 81060000            lwz   r8,0x0(r6)
+>>>registers $vsr32 
+>>> $vsr32  ($vr0):0x3f800000 3f800000 3f800000 3f800000
+>>>stopped in square at 0x10000904
+>>>0x10000904 (square+0xb0) 7cba2a78                 xor    r26,r5,r5
+>>>print $r8 
+>>>(nil) 
+>>>stopped in square at 0x10000908
+>>>0x10000908 (square+0xb4) 7f5bd278                 xor    r27,r26,r26
+>>>print $r26 
+>>>(nil) 
+>>>stopped in square at 0x1000090c
+>>>0x1000090c (square+0xb8) 2c050000           cmpi   cr0,0x0,r5,0x0
+>>>print $r27 
+>>>(nil) 
+>>>stopped in square at 0x10000910
+>>>0x10000910 (square+0xbc) 408100c0            ble   0x100009d0 (square+0x17c) 
+>>>print $cr 
+>>>0x53628858 
+>>>stopped in square at 0x10000914
+>>>0x10000914 (square+0xc0) 7fe3d014                addc    r31,r3,r26
+>>>stopped in square at 0x10000918
+>>>0x10000918 (square+0xc4) 7fc4d014                addc    r30,r4,r26
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x1000091c
+>>>0x1000091c (square+0xc8) f79e0009                 lxv    vsr60,0(r30)
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000920
+>>>0x10000920 (square+0xcc) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr60 
+>>> $vsr60 ($vr28):0x00000000 3f800000 40000000 40400000
+>>>stopped in square at 0x10000924
+>>>0x10000924 (square+0xd0) f7fe0019                 lxv    vsr63,0x10(r30)
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000928
+>>>0x10000928 (square+0xd4) 7fa4d014                addc    r29,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x40800000 40a00000 40c00000 40e00000
+>>>stopped in square at 0x1000092c
+>>>0x1000092c (square+0xd8) f3bf0207             xvaddsp    vsr61,vsr63,vsr32
+>>>print $r29 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000930
+>>>0x10000930 (square+0xdc) f3dc0207             xvaddsp    vsr62,vsr60,vsr32
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x40a00000 40c00000 40e00000 41000000
+>>>stopped in square at 0x10000934
+>>>0x10000934 (square+0xe0) f7df000d                stxv    vsr62,0(r31)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x3f800000 40000000 40400000 40800000
+>>>stopped in square at 0x10000938
+>>>0x10000938 (square+0xe4) 7fc3d014                addc    r30,r3,r26
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x3f800000 40000000 40400000 40800000
+>>>stopped in square at 0x1000093c
+>>>0x1000093c (square+0xe8) 7f9c3a78                 xor    r28,r28,r7
+>>>print $r30 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000940
+>>>0x10000940 (square+0xec) 7f7b3a78                 xor    r27,r27,r7
+>>>print $r28 
+>>>0x20000af5 
+>>>stopped in square at 0x10000944
+>>>0x10000944 (square+0xf0) 7fe82850                subf    r31,r8,r5
+>>>print $r27 
+>>>(nil) 
+>>>stopped in square at 0x10000948
+>>>0x10000948 (square+0xf4) 7c1af800                cmpw    cr0,r26,r31
+>>>print $r31 
+>>>0x00000040 
+>>>stopped in square at 0x1000094c
+>>>0x1000094c (square+0xf8) 4080005c            bge   0x100009a8 (square+0x154) 
+>>>print $cr 
+>>>0x93628858 
+>>>stopped in square at 0x10000950
+>>>0x10000950 (square+0xfc) f7dd0029                 lxv    vsr62,0x20(r29)
+>>>stopped in square at 0x10000954
+>>>0x10000954 (square+0x100) f7be001d                stxv    vsr61,0x10(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41000000 41100000 41200000 41300000
+>>>stopped in square at 0x10000958
+>>>0x10000958 (square+0x104) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x40a00000 40c00000 40e00000 41000000
+>>>stopped in square at 0x1000095c
+>>>0x1000095c (square+0x108) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000960
+>>>0x10000960 (square+0x10c) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000964
+>>>0x10000964 (square+0x110) f7de0039                 lxv    vsr62,0x30(r30)
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000968
+>>>0x10000968 (square+0x114) f7ff002d                stxv    vsr63,0x20(r31)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41400000 41500000 41600000 41700000
+>>>stopped in square at 0x1000096c
+>>>0x1000096c (square+0x118) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000970
+>>>0x10000970 (square+0x11c) 7fe4d014                addc    r31,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41500000 41600000 41700000 41800000
+>>>stopped in square at 0x10000974
+>>>0x10000974 (square+0x120) f7bf0049                 lxv    vsr61,0x40(r31)
+>>>print $r31 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000978
+>>>0x10000978 (square+0x124) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000097c
+>>>0x1000097c (square+0x128) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000980
+>>>0x10000980 (square+0x12c) f3dd0207             xvaddsp    vsr62,vsr61,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000984
+>>>0x10000984 (square+0x130) f7be0059                 lxv    vsr61,0x50(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000988
+>>>0x10000988 (square+0x134) f7df004d                stxv    vsr62,0x40(r31)
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000098c
+>>>0x1000098c (square+0x138) 7fe3d014                addc    r31,r3,r26
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000990
+>>>0x10000990 (square+0x13c) f3bd0207             xvaddsp    vsr61,vsr61,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000994
+>>>0x10000994 (square+0x140) f7ff003d                stxv    vsr63,0x30(r31)
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000998
+>>>0x10000998 (square+0x144) 7fa4d014                addc    r29,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41500000 41600000 41700000 41800000
+>>>stopped in square at 0x1000099c
+>>>0x1000099c (square+0x148) 7fc3d014                addc    r30,r3,r26
+>>>print $r29 
+>>>0x2ff22b20 
+>>>stopped in square at 0x100009a0
+>>>0x100009a0 (square+0x14c) 7f5a4014                addc    r26,r26,r8
+>>>print $r30 
+>>>0x2ff22a60 
+>>>stopped in square at 0x100009a4
+>>>0x100009a4 (square+0x150) 4bffff98              b   0x1000093c (square+0xe8) 
+>>>print $r26 
+>>>(nil) 
+>>>stopped in square at 0x1000093c
+>>>0x1000093c (square+0xe8) 7f9c3a78                 xor    r28,r28,r7
+>>>stopped in square at 0x10000940
+>>>0x10000940 (square+0xec) 7f7b3a78                 xor    r27,r27,r7
+>>>print $r28 
+>>>0x20000af5 
+>>>stopped in square at 0x10000944
+>>>0x10000944 (square+0xf0) 7fe82850                subf    r31,r8,r5
+>>>print $r27 
+>>>(nil) 
+>>>stopped in square at 0x10000948
+>>>0x10000948 (square+0xf4) 7c1af800                cmpw    cr0,r26,r31
+>>>print $r31 
+>>>0x00000040 
+>>>stopped in square at 0x1000094c
+>>>0x1000094c (square+0xf8) 4080005c            bge   0x100009a8 (square+0x154) 
+>>>print $cr 
+>>>0x93628858 
+>>>stopped in square at 0x10000950
+>>>0x10000950 (square+0xfc) f7dd0029                 lxv    vsr62,0x20(r29)
+>>>stopped in square at 0x10000954
+>>>0x10000954 (square+0x100) f7be001d                stxv    vsr61,0x10(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41000000 41100000 41200000 41300000
+>>>stopped in square at 0x10000958
+>>>0x10000958 (square+0x104) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x1000095c
+>>>0x1000095c (square+0x108) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000960
+>>>0x10000960 (square+0x10c) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000964
+>>>0x10000964 (square+0x110) f7de0039                 lxv    vsr62,0x30(r30)
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000968
+>>>0x10000968 (square+0x114) f7ff002d                stxv    vsr63,0x20(r31)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41400000 41500000 41600000 41700000
+>>>stopped in square at 0x1000096c
+>>>0x1000096c (square+0x118) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000970
+>>>0x10000970 (square+0x11c) 7fe4d014                addc    r31,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41500000 41600000 41700000 41800000
+>>>stopped in square at 0x10000974
+>>>0x10000974 (square+0x120) f7bf0049                 lxv    vsr61,0x40(r31)
+>>>print $r31 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000978
+>>>0x10000978 (square+0x124) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000097c
+>>>0x1000097c (square+0x128) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000980
+>>>0x10000980 (square+0x12c) f3dd0207             xvaddsp    vsr62,vsr61,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000984
+>>>0x10000984 (square+0x130) f7be0059                 lxv    vsr61,0x50(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000988
+>>>0x10000988 (square+0x134) f7df004d                stxv    vsr62,0x40(r31)
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000098c
+>>>0x1000098c (square+0x138) 7fe3d014                addc    r31,r3,r26
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000990
+>>>0x10000990 (square+0x13c) f3bd0207             xvaddsp    vsr61,vsr61,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000994
+>>>0x10000994 (square+0x140) f7ff003d                stxv    vsr63,0x30(r31)
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000998
+>>>0x10000998 (square+0x144) 7fa4d014                addc    r29,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41500000 41600000 41700000 41800000
+>>>stopped in square at 0x1000099c
+>>>0x1000099c (square+0x148) 7fc3d014                addc    r30,r3,r26
+>>>print $r29 
+>>>0x2ff22b20 
+>>>stopped in square at 0x100009a0
+>>>0x100009a0 (square+0x14c) 7f5a4014                addc    r26,r26,r8
+>>>print $r30 
+>>>0x2ff22a60 
+>>>stopped in square at 0x100009a4
+>>>0x100009a4 (square+0x150) 4bffff98              b   0x1000093c (square+0xe8) 
+>>>print $r26 
+>>>(nil) 
+>>>stopped in square at 0x1000093c
+>>>0x1000093c (square+0xe8) 7f9c3a78                 xor    r28,r28,r7
+>>>stopped in square at 0x10000940
+>>>0x10000940 (square+0xec) 7f7b3a78                 xor    r27,r27,r7
+>>>print $r28 
+>>>0x20000af5 
+>>>stopped in square at 0x10000944
+>>>0x10000944 (square+0xf0) 7fe82850                subf    r31,r8,r5
+>>>print $r27 
+>>>(nil) 
+>>>stopped in square at 0x10000948
+>>>0x10000948 (square+0xf4) 7c1af800                cmpw    cr0,r26,r31
+>>>print $r31 
+>>>0x00000040 
+>>>stopped in square at 0x1000094c
+>>>0x1000094c (square+0xf8) 4080005c            bge   0x100009a8 (square+0x154) 
+>>>print $cr 
+>>>0x93628858 
+>>>stopped in square at 0x10000950
+>>>0x10000950 (square+0xfc) f7dd0029                 lxv    vsr62,0x20(r29)
+>>>stopped in square at 0x10000954
+>>>0x10000954 (square+0x100) f7be001d                stxv    vsr61,0x10(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41000000 41100000 41200000 41300000
+>>>stopped in square at 0x10000958
+>>>0x10000958 (square+0x104) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x1000095c
+>>>0x1000095c (square+0x108) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000960
+>>>0x10000960 (square+0x10c) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000964
+>>>0x10000964 (square+0x110) f7de0039                 lxv    vsr62,0x30(r30)
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000968
+>>>0x10000968 (square+0x114) f7ff002d                stxv    vsr63,0x20(r31)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x41400000 41500000 41600000 41700000
+>>>stopped in square at 0x1000096c
+>>>0x1000096c (square+0x118) f3fe0207             xvaddsp    vsr63,vsr62,vsr32
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41100000 41200000 41300000 41400000
+>>>stopped in square at 0x10000970
+>>>0x10000970 (square+0x11c) 7fe4d014                addc    r31,r4,r26
+>>>registers $vsr63 
+>>> $vsr63 ($vr31):0x41500000 41600000 41700000 41800000
+>>>stopped in square at 0x10000974
+>>>0x10000974 (square+0x120) f7bf0049                 lxv    vsr61,0x40(r31)
+>>>print $r31 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000978
+>>>0x10000978 (square+0x124) 7fc4d014                addc    r30,r4,r26
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000097c
+>>>0x1000097c (square+0x128) 7fe3d014                addc    r31,r3,r26
+>>>print $r30 
+>>>0x2ff22b20 
+>>>stopped in square at 0x10000980
+>>>0x10000980 (square+0x12c) f3dd0207             xvaddsp    vsr62,vsr61,vsr32
+>>>print $r31 
+>>>0x2ff22a60 
+>>>stopped in square at 0x10000984
+>>>0x10000984 (square+0x130) f7be0059                 lxv    vsr61,0x50(r30)
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000988
+>>>0x10000988 (square+0x134) f7df004d                stxv    vsr62,0x40(r31)
+>>>registers $vsr61 
+>>> $vsr61 ($vr29):0x445e0000 445e0000 445e0000 445e0000
+>>>stopped in square at 0x1000098c
+>>>0x1000098c (square+0x138) 7fe3d014                addc    r31,r3,r26
+>>>registers $vsr62 
+>>> $vsr62 ($vr30):0x445e4000 445e4000 445e4000 445e4000
+>>>stopped in square at 0x10000990
+>>>0x10000990 (square+0x13c) f3bd0207             xvaddsp    vsr61,vsr61,vsr32

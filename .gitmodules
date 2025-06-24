@@ -1,0 +1,3 @@
+[submodule "CoconutBase"]
+	path = CoconutBase
+	url = https://github.com/christopheranand/CoconutBase

@@ -1,0 +1,23 @@
+#+title:
+
+| old instruction | possible replacement |                                                 |
+| --------------- | -------------------- | ----------------------------------------------- |
+| vcmpgtfp        | xvcmpgtsp   X        |                                                 |
+| vsel            | xxsel       X        |                                                 |
+| vand            | xxland      X        |                                                 |
+| vxor            | xxlxor               |                                                 |
+| vrlq            | ?                    | NOTE MASS code uses vslw? also old instruction  |
+| vperm           | xxperm               | NOTE MASS code also uses vperm                  |
+| vctsxs          | xvcvspsxws           |                                                 |
+| vrefp           | xvresp               |                                                 |
+| vcmpeqfp        | xvcmpeqsp            |                                                 |
+| vadduwm         | ?                    |                                                 |
+
+
+Other notes
+ - other code makes frequent use of xvmulsp
+ - MASS code uses lxvd2x and stxvd2x instead of lxv and stxv
+
+
+
+/gsa/rtpgsa/projects/x/xlcmpbld/run/vacpp/16.1.0/aix/solution/220928/bin/xlC   -o /buildbot_worker/official-worker/mass-aix-prod1712/mass/mass/source/loopgen/expf_v_p7.loop.pwr10.64.o -c /buildbot_worker/official-worker/mass-aix-prod1712/mass/mass/source/loopgen/expf_v_p7.cpp -c -O3 -qnohot -I. -I/buildbot_worker/official-worker/mass-aix-prod1712/mass/mass/include -I/buildbot_worker/official-worker/mass-aix-prod1712/mass/mass/../cs/product_list -qnoeh -DCAST_BY_UNION -qvisibility=hidden -qstrict=zerosigns:nans -qdebug=nvsxdive:nfoldfnms:nfoldfnma -qdebug=ncblcs1:ncblcs2 -qdebug=schedvols:align5:crkall:nunspec:ncross -qdebug=useall:nvflalg:nloop -qsuppress=1506-236:1540-848:1540-1088 -qldbl128 -qhot=nosimd -qdebug=mdsz:mdsz2000:modsz:modsz999:psz:psz2000:moddoall -qdebug=nloop:nunroll:nsqre:latelateds -UCAST_BY_UNION -qhot=nosimd -qinline=level=10 -qinitauto=00 -qdebug=inlinealwaysinline -DUSE_SIMD=1 -D__SIMD__=1 -DLIB=1 -qdebug=modspcsn:modct:modct0 -qsuppress=1540-1663 -qaltivec -qvecnvol -q64 -qarch=pwr8 -qtune=pwr8 -DVSX -DPGP -qdebug=boollfcr1:boolc_lr -qdebug=nrecord -D_UNROLL=10 -DUNROLL=10  -D_SFX= -D_PFX=

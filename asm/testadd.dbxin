@@ -1,0 +1,102 @@
+
+stepi
+p "$r26 ="
+p $r26
+
+stepi
+p "$r27 ="
+p $r27
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+p "$vr31 ="
+p $vr31
+
+stepi
+
+stepi
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r28 ="
+p $r28
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r27 ="
+p $r27
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+p "$r31 ="
+p $r31
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+p "$vr30 ="
+p $vr30
+
+stepi
+
+
